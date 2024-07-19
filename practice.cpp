@@ -1,8 +1,9 @@
 #include <iostream>
-// using namespace std; 
+// using namespace std;
 
-int main() {
-    std::cout << "Hello Corey" << std::endl; 
-    std::cout << "Hello C++"; 
-    return 0; 
+int main()
+{
+    std::cout << "Hello Corey" << std::endl;
+    std::cout << "Hello C++";
+    return 0;
 }
