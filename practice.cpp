@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 // using namespace std;
 /*
 All code within this file was made without using the namespace std, so if things look confusing that is why.
@@ -37,14 +38,6 @@ int main()
     // // boolean operators 
     // std::cout << (3 > 5) << std::endl; 
     // std::cout << (5 < 4) << std::endl;
-
-    // // boolean game -- will continue once I learn conditionals 
-    // int num1; 
-    // int num2; 
-    // std::cout << "Type the first number: "; 
-    // std::cin >> num1;
-    // std::cout << "Type in the second number: "; 
-    // std::cin >> num2;     
 
     // //String Concatenation 
     // std::string name1 = "Bob "; 
@@ -120,6 +113,90 @@ int main()
     */
     // std::string greeting1 = "hello"; //Regular string
     // char greeting2[] = "Hello"; //C-style String (Array of characters)
+
+    /*
+    C++ Math
+    -max(x,y) ~ returns the highest value 
+    -min(x,y) ~ returns the smallest value 
+    Using the <cmath> library
+    -sqrt() ~ Square root 
+    -round() ~ rounds up to the whole integer
+    -log() ~ natural log 
+    */
+    // std::cout << std::max(10, 15) << std::endl; 
+    // std::cout << std::min(5, 7) << std::endl;
+    // std::cout << std::sqrt(64);  
+
+
+    
+    //Boolean values return either 1 or 0 for true or false
+    // bool isSkyBlue = true; 
+    // std::cout << isSkyBlue; 
+
+    /*
+    Boolean expression are useful for logic
+    -such operators are >, <, >=, <=, == 
+    */
+
+    // std::cout << (10 > 9); //returns 1 since the statement is true. 
+
+
+    /*
+    Conditionals  and if-statements
+    a < b // less than
+    a <= b // less than or equal to
+    a > b // greater than
+    a >= b // greater than or equal to
+    a == b // equal to
+    a != b // not equal to
+    ---------------------------------
+    other conditionals 
+    -if 
+    -else 
+    -else if 
+    -switch
+    */
+
+    // int totalNum = 10;
+    // int guessedNum; 
+    // std::cout << "Enter your guess: "; 
+    // std::cin >> guessedNum; 
+    // if(guessedNum == totalNum){
+    //     std::cout << "Correct the number is " << totalNum; 
+    // } else {
+    //     std::cout << "Incorrect wrong number, your guess was: " << guessedNum; 
+    // }
+
+    //Short Hand if...Else(Ternary Operator)
+    //variable = (condition) ? expressionTrue : expressionFalse; 
+    // int time = 10;  
+    // std::string result = (time < 15) ? "Almost time to go." : "Not yet time to go."; 
+    // std::cout << result; 
+
+    //switch statments
+    //-Used to select one of many options within a block of code
+    // int age = 60; 
+    // switch (age){
+    //     case 10:
+    //         std::cout << "Your still young"; 
+    //         break;
+    //     case 18: 
+    //         std::cout << "Your an offical adult"; 
+    //         break; 
+    //     case 21:
+    //         std::cout << "You can drink"; 
+    //         break; 
+    //     case 26:
+    //         std::cout << "Your brain is fully developed"; 
+    //         break; 
+    //     case 30: 
+    //         std::cout << "Your getting to your golden age"; 
+    //         break; 
+    //     case 50: 
+    //         std::cout << "Your at your prime age"; 
+    //     default:
+    //         std::cout << "Your age is unmeasurable";  
+    // }
 
     
     return 0;
