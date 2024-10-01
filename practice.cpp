@@ -198,6 +198,58 @@ int main()
     //         std::cout << "Your age is unmeasurable";  
     // }
 
+    //Example of a while loop. 
+    /*
+    Syntax- while (condition){
+        block of code executed.
+        }
+    */
+    // int i = 0; 
+    // while (i<=5){
+    //     std::cout << i << std::endl; 
+    //     i++; 
+    // }
+
+    /*
+    Executes the code once and then loops as long as the condition is true. 
+    do {
+    // code block to be executed
+    }
+    while (condition);
+    */
+   
+
+    /*
+    C++ for-loops
+    syntax:
+    for (statment 1; statement 2; statement 3){
+        //Code that is executed 
+    }
+
+    statement 1: is executed (1 time) before the execution of the code block. 
+    statement 2: defines the condition for executing the code block. 
+    statement 3: is executed (everytime) after the code block has been executed. 
+
+    more simplier version: Variable, condtional, incrementer. 
+    */
+
+    // for(int i = 0; i <= 10; i += 2){
+    //     std::cout << "Hello " << i << std::endl;  
+    // }
+
+    /*
+    C++ nested loops - inner loops fully increment before outerloops finish incrementing. 
+    // Outer loop
+    for (int i = 1; i <= 2; ++i) {
+        std::cout << "Outer: " << i << "\n"; // Executes 2 times
+
+        // Inner loop
+        for (int j = 1; j <= 3; ++j) {
+            std::cout << " Inner: " << j << "\n"; // Executes 6 times (2 * 3)
+        }
+    }
+    */
+
     
     return 0;
 }
